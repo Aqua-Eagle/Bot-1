@@ -23,6 +23,9 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
+            
+            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+            
             await message.client.sendMessage(message.jid,'╔══════ *CYBER BOT* ══════╗\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*BOT ONLINE* ' , MessageType.text);
         }
         else {
@@ -54,6 +57,9 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
+            
+            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+            
             await message.client.sendMessage(message.jid,'╔══════ *CYBER BOT* ══════╗\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*BOT ONLINE* ' + Config.CHANNEL, MessageType.text);
         }
         else {

@@ -24,7 +24,7 @@ if (Config.WORKTYPE == 'private') {
 
         if (Config.ALIVEMSG == 'default') {
             
-                 var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+                 var image = await axios.get ('https://i.ibb.co/h26VWqL/CyberBot.jpg', {responseType: 'arraybuffer'})
               await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption:'╔══════ *CYBER BOT* ══════╗\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*BOT ONLINE* ' , MessageType.text);
         }
         else {
@@ -57,7 +57,7 @@ else if (Config.WORKTYPE == 'public') {
 
         if (Config.ALIVEMSG == 'default') {
                                  
-            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://i.ibb.co/h26VWqL/CyberBot.jpg', {responseType: 'arraybuffer'})
             await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption:'╔══════ *CYBER BOT* ══════╗\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*BOT ONLINE* ' , MessageType.text);
        
         }

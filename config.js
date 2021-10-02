@@ -22,6 +22,7 @@ module.exports = {
     VERSION: 'v1.3.2 Global Stable',
     CHANNEL: 'https://t.me/remasterplugin',
     SESSION: process.env.ASENA_SESSION === undefined ? '' : process.env.ASENA_SESSION,
+    ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://i.ibb.co/h26VWqL/CyberBot.jpg' : process.env.ALIVE_LOGO,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.ibb.co/h26VWqL/CyberBot.jpg' : process.env.GAN_IMAGE,

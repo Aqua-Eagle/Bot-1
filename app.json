@@ -3,9 +3,9 @@
     "description": "Cyber Army project - UserBot made for WhatsApp.",
     "logo": "https://i.ibb.co/h26VWqL/CyberBot.jpg",
     "keywords": ["whatsapp", "userbot", "Cyber", "CyberBot", "bot", "api", "ai"],
-    "repository": "https://github.com/phaticusthiccy/WhatsAsenaDuplicated",
-    "website":   "https://t.me/phaticusthiccy",
-    "success_url": "https://t.me/AsenaSupport",
+    "repository": "https://github.com/Aqua-Snake/CBot",
+    "website":   "https://t.me/Aqua_Snake",
+    "success_url": "https://t.me/cyber_bot_support",
     "stack": "container",
     "env": {
         "BOT_SESSION": {

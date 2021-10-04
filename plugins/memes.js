@@ -44,12 +44,12 @@ if (Config.WORKTYPE == 'private') {
     
 	    memeMaker({
             image: location,         
-            outfile: 'asena-meme.png',
+            outfile: 'cbot-meme.png',
             topText: topText,
             bottomText: bottomText,
         }, async function(err) {
             if(err) throw new Error(err)
-            await message.client.sendMessage(message.jid, fs.readFileSync('asena-meme.png'), MessageType.image, {filename: 'asena-meme.png', mimetype: Mimetype.png, caption: 'Made by WhatsAsena'});
+            await message.client.sendMessage(message.jid, fs.readFileSync('cbot-meme.png'), MessageType.image, {filename: 'cbot-meme.png', mimetype: Mimetype.png, caption: 'Made by Cyber Bot'});
             await info.delete();    
         });
     }));
@@ -82,12 +82,12 @@ else if (Config.WORKTYPE == 'public') {
     
 	    memeMaker({
             image: location,         
-            outfile: 'asena-meme.png',
+            outfile: 'cbot-meme.png',
             topText: topText,
             bottomText: bottomText,
         }, async function(err) {
             if(err) throw new Error(err)
-            await message.client.sendMessage(message.jid, fs.readFileSync('asena-meme.png'), MessageType.image, {filename: 'asena-meme.png', mimetype: Mimetype.png, caption: 'Made by WhatsAsena'});
+            await message.client.sendMessage(message.jid, fs.readFileSync('cbot-meme.png'), MessageType.image, {filename: 'cbot-meme.png', mimetype: Mimetype.png, caption: 'Made by Cyber Bot'});
             await info.delete();    
         });
     }));

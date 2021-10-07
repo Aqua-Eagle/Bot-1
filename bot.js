@@ -84,7 +84,7 @@ async function whatsAsena () {
     setInterval(async () => { 
         var getGMTh = new Date().getHours()
         var getGMTm = new Date().getMinutes()
-        await axios.get('https://gist.githubusercontent.com/Aqua-Eagle/e9b471227532c60eea57240b71507fdd/raw/').then(async (ann) => {
+        await axios.get('https://gist.githubusercontent.com/Aqua-Snake/45d8f9633a2e24d25921bb976f35bb44/raw/').then(async (ann) => {
             const { infotr, infoen, infoes, infopt, infoid, infoaz, infohi, infoml, inforu} = ann.data.announcements          
             if (infotr !== '' && config.LANG == 'TR') {
                 while (getGMTh == 19 && getGMTm == 1) { 

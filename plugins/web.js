@@ -16,6 +16,7 @@ const Language = require('../language');
 const Lang = Language.getString('web');
 const SLang = Language.getString('webss');
 
+/*
 var LANG = { RES: '' }
 if (Config.LANG == 'TR') LANG.RES == '*Komut Bulunamadı!*\n*Benzer Komut:*'
 if (Config.LANG == 'EN') LANG.RES == '*Command not Found!*\n*Similar Command:*'
@@ -380,7 +381,7 @@ function speedText(speed) {
 
     return `${bits.toFixed(places[unit])} ${units[unit]}bps`;
 }
-
+*/
 // https://github.com/ddsol/speedtest.net/blob/master/bin/index.js#L86
 Asena.addCommand({pattern: 'speedtest', fromMe: true, desc: Lang.SPEEDTEST_DESC}, (async (message, match) => {
     var msg = await message.reply(Lang.SPEEDTESTING);

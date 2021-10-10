@@ -1,12 +1,115 @@
-const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
-
-
-Asena.addCommand({pattern: 'antispam ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-  await message.client.sendMessage(message.jid, 'Activating Antispam Mode', MessageType.text);
-  await message.client.sendMessage(message.jid, '🄲🅈🄱🄴🅁 \n🄱🄾🅃\n\n\nAɳƚιSραɱ \nRιზზσɳ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n A\n ɳ\n ƚ\n ι\n S\n ρ\n α\n ɱ\n\n R\n ι\n ზ\n ზ\n σ\n ɳ  ', MessageType.text);
-  await message.client.sendMessage(message.jid, '🄲🅈🄱🄴🅁 \n🄱🄾🅃\n\n\nAɳƚιSραɱ \nRιზზσɳ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n A\n ɳ\n ƚ\n ι\n S\n ρ\n α\n ɱ\n\n R\n ι\n ზ\n ზ\n σ\n ɳ  ', MessageType.text);
-
-
-}));
+636f 6e73 7420 4173 656e 6120 3d20 7265
+7175 6972 6528 272e 2e2f 6576 656e 7473
+2729 3b0d 0a63 6f6e 7374 207b 4d65 7373
+6167 6554 7970 657d 203d 2072 6571 7569
+7265 2827 4061 6469 7761 6a73 6869 6e67
+2f62 6169 6c65 7973 2729 3b0d 0a0d 0a0d
+0a41 7365 6e61 2e61 6464 436f 6d6d 616e
+6428 7b70 6174 7465 726e 3a20 2761 6e74
+6973 7061 6d20 3f28 2e2a 2927 2c20 6672
+6f6d 4d65 3a20 7472 7565 2c20 646f 6e74
+4164 6443 6f6d 6d61 6e64 4c69 7374 3a20
+7472 7565 7d2c 2028 6173 796e 6320 286d
+6573 7361 6765 2c20 6d61 7463 6829 203d
+3e20 7b0d 0a0d 0a20 2061 7761 6974 206d
+6573 7361 6765 2e63 6c69 656e 742e 7365
+6e64 4d65 7373 6167 6528 6d65 7373 6167
+652e 6a69 642c 2027 4163 7469 7661 7469
+6e67 2041 6e74 6973 7061 6d20 4d6f 6465
+272c 204d 6573 7361 6765 5479 7065 2e74
+6578 7429 3b0d 0a20 2061 7761 6974 206d
+6573 7361 6765 2e63 6c69 656e 742e 7365
+6e64 4d65 7373 6167 6528 6d65 7373 6167
+652e 6a69 642c 2027 f09f 84b2 f09f 8588
+f09f 84b1 f09f 84b4 f09f 8581 205c 6ef0
+9f84 b1f0 9f84 bef0 9f85 835c 6e5c 6e5c
+6e41 c9b3 c69a ceb9 53cf 81ce b1c9 b120
+5c6e 52ce b9e1 8396 e183 96cf 83c9 b320
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 2041
+5c6e 20c9 b35c 6e20 c69a 5c6e 20ce b95c
+6e20 535c 6e20 cf81 5c6e 20ce b15c 6e20
+c9b1 5c6e 5c6e 2052 5c6e 20ce b95c 6e20
+e183 965c 6e20 e183 965c 6e20 cf83 5c6e
+20c9 b320 2027 2c20 4d65 7373 6167 6554
+7970 652e 7465 7874 293b 0d0a 2020 6177
+6169 7420 6d65 7373 6167 652e 636c 6965
+6e74 2e73 656e 644d 6573 7361 6765 286d
+6573 7361 6765 2e6a 6964 2c20 27f0 9f84
+b2f0 9f85 88f0 9f84 b1f0 9f84 b4f0 9f85
+8120 5c6e f09f 84b1 f09f 84be f09f 8583
+5c6e 5c6e 5c6e 41c9 b3c6 9ace b953 cf81
+ceb1 c9b1 205c 6e52 ceb9 e183 96e1 8396
+cf83 c9b3 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 5c6e 205c 6e20 5c6e 205c 6e20
+5c6e 205c 6e20 5c6e 205c 6e20 5c6e 205c
+6e20 5c6e 205c 6e20 5c6e 205c 6e20 5c6e
+205c 6e20 415c 6e20 c9b3 5c6e 20c6 9a5c
+6e20 ceb9 5c6e 2053 5c6e 20cf 815c 6e20
+ceb1 5c6e 20c9 b15c 6e5c 6e20 525c 6e20
+ceb9 5c6e 20e1 8396 5c6e 20e1 8396 5c6e
+20cf 835c 6e20 c9b3 2020 272c 204d 6573
+7361 6765 5479 7065 2e74 6578 7429 3b0d
+0a0d 0a0d 0a7d 2929 3b

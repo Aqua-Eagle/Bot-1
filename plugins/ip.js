@@ -26,7 +26,7 @@ const NOT_FOUNDIP = "```Sorry,I could not your IP 😖```"
 
 if (Config.WORKTYPE == 'private') {
 
- Asena.addCommand({pattern: 'ip ?(.*)', desc: 'gives you the detail of your IP' ,fromMe: false}, async (message, match) => {
+ Asena.addCommand({pattern: 'ip ?(.*)', desc: 'gives you the detail of your IP' ,fromMe: true}, async (message, match) => {
     
     if (match[1] === '') return await message.reply(NEED_IP);
 	const url = `https://api.techniknews.net/ipgeo/${match[1]}`;

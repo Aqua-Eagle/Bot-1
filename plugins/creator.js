@@ -17,7 +17,7 @@ if (Config.WORKTYPE == 'private') {
 
 Asena.addCommand({pattern: 'info', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
-	await message.sendMessage(fs.readFileSync('media/cabot.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
+	await message.sendMessage(fs.readFileSync('media/cabot.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: false});
 	 await message.sendMessage(fs.readFileSync('media/CyberBot.jpg'), MessageType.image, {caption: `_____ *Cyber Bot* _____\n\n Creator : Aqua Snake \n Github : https://github.com/Aqua-Snake/ \n Whatsapp : wa.me/+94764746599 \n Telegram : https://t.me/Aqua_Snake/ \n Bot Link : https://aqua-snake.github.io/CBot/ `});
 
 	}));
@@ -28,7 +28,7 @@ else if (Config.WORKTYPE == 'public') {
 
 Asena.addCommand({pattern: 'info', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
-	    await message.sendMessage(fs.readFileSync('media/cabot.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
+	    await message.sendMessage(fs.readFileSync('media/cabot.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: false});
 	    await message.sendMessage(fs.readFileSync('media/CyberBot.jpg'), MessageType.image, {caption: `_____ *Cyber Bot* _____\n\n Creator : Aqua Snake \n Github : https://github.com/Aqua-Snake/ \n Whatsapp : wa.me/+94764746599 \n Telegram : https://t.me/Aqua_Snake/ \n Bot Link : https://aqua-snake.github.io/CBot/ `});
     }));
 }

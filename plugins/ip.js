@@ -44,7 +44,9 @@ if (Config.WORKTYPE == 'private') {
         '*💸' + CURRENCY +'* ```' + ipjson.currency+ '```\n\n' +
         '*📡' + ISP +'* ```' + ipjson.isp+ '```\n' +
         '*🛡' + PROXY +'* ```' + ipjson.proxy+ '```\n' +
-        '*📱' + MOBILE +'* ```' + ipjson.mobile+ '```\n', MessageType.text);
+        '*📱' + MOBILE +'* ```' + ipjson.mobile+ '```\n'+
+        '*CYBERBOT IP CHECKER*\n', 
+        MessageType.text);
 	} 
     catch {
 		return await message.client.sendMessage(message.jid, NOT_FOUNDIP, MessageType.text);

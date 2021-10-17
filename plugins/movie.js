@@ -23,8 +23,8 @@ Asena.addCommand({ pattern: 'movie ?(.*)', fromMe: true, desc: "Shows movie info
 	    msg += '🌀 Genre      : ' + json.Genre + '\n\n';
 	    msg += '👨🏻‍💻 Director   : ' + json.Director + '\n\n';
 	    msg += '✍🏻 Writer     : ' + json.Writer + '\n\n';
-	    msg += '👨🏻‍🎤 Actors     : ' + json.Actors + '\n\n';
-            msg += '📃Plot       : ' + json.Plot + '\n\n';
+	    msg += '👨🏻‍🎤 Actors     : ' + json.Actors + '\n\n';   
+	    msg += '📃Plot       : ' + json.Plot + '\n\n';
 	    msg += '🌐 Language   : ' + json.Language + '\n\n';
 	    msg += '🌍 Country    : ' + json.Country + '\n\n';
 	    msg += '🎖️ Awards     : ' + json.Awards + '\n\n';

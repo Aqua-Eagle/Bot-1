@@ -15,14 +15,14 @@ const Config = require('../config');
 if (Config.WORKTYPE == 'private') {
 Asena.addCommand({pattern: 'bot', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
-	await message.client.sendMessage(message.jid, fs.readFileSync('./media/cabot.mp3'), MessageType.audio, {mimetype: 'audio/mp4', ptt:true}, {quoted: message.data})
+	await message.client.sendMessage(message.jid, fs.readFileSync('./media/cyberbot.mp3'), MessageType.audio, {mimetype: 'audio/mp4', ptt:true}, {quoted: message.data})
 }));
 }
 
 else if (Config.WORKTYPE == 'public') {
 Asena.addCommand({pattern: 'bot', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 	
-    await message.client.sendMessage(message.jid, fs.readFileSync('./media/cabot.mp3'), MessageType.audio, {mimetype: 'audio/mp4', ptt:true}, {quoted: message.data})
+    await message.client.sendMessage(message.jid, fs.readFileSync('./media/cyberbot.mp3'), MessageType.audio, {mimetype: 'audio/mp4', ptt:true}, {quoted: message.data})
 }));
 
 }

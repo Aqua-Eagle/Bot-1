@@ -14,7 +14,7 @@ const NOT_FOUNDAC ="*Invalid Request*"
 
 Asena.addCommand({pattern: 'ann ?(.*)', fromMe: true, desc: Chat with an AI Bot.\n Use .a <message>}, async (message, match) => {
 	if (match[1] === 'xx') return await message.reply(NEED_LOCATIONA);
-	const url = `https://api.simsimi.net/v1/?text=${match[1]}&lang=en&cf=true`;
+	const url = `https://api.simsimi.net/v2/?text=${match[1]}&lang=en&cf=true`;
 	try {
 		const response = await got(url);
 		const json = JSON.parse(response.body);

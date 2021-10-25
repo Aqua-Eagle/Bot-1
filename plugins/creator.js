@@ -23,7 +23,7 @@ if (Config.WORKTYPE == 'private') {
 
 	Asena.addCommand({pattern: 'infodev', fromMe: true, desc: 'Developer Infomation'}, (async (message, match) => {
 
-		await 	message.sendMessage(fs.readFileSync('media/CyberBot.jpg'), MessageType.image, {caption: `_____ *Bot Developer* _____\n\n Creator : Aqua Snake \n Github : https://github.com/Aqua-Snake/ \n Whatsapp : wa.me/+94764746599 \n Telegram : https://t.me/Aqua_Snake/ \n Website : https://aqua-snake.github.io/Aqua-Snake/ `});
+		await 	message.sendMessage(fs.readFileSync('media/aqualogo.jpg'), MessageType.image, {caption: `_____ *Bot Developer* _____\n\n Creator : Aqua Snake \n Github : https://github.com/Aqua-Snake/ \n Whatsapp : wa.me/+94764746599 \n Telegram : https://t.me/Aqua_Snake/ \n Website : https://aqua-snake.github.io/Aqua-Snake/ `});
 
 	}));
 	Asena.addCommand({pattern: 'infoca ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
@@ -43,7 +43,7 @@ else if (Config.WORKTYPE == 'public') {
     }));
     Asena.addCommand({pattern: 'infodev', fromMe: true, desc: 'Developer Infomation'}, (async (message, match) => {
 
-		await 	message.sendMessage(fs.readFileSync('media/CyberBot.jpg'), MessageType.image, {caption: `_____ *Bot Developer* _____\n\n Creator : Aqua Snake \n Github : https://github.com/Aqua-Snake/ \n Whatsapp : wa.me/+94764746599 \n Telegram : https://t.me/Aqua_Snake/ \n Website : https://aqua-snake.github.io/Aqua-Snake/ `});
+		await 	message.sendMessage(fs.readFileSync('media/aqualogo.jpg'), MessageType.image, {caption: `_____ *Bot Developer* _____\n\n Creator : Aqua Snake \n Github : https://github.com/Aqua-Snake/ \n Whatsapp : wa.me/+94764746599 \n Telegram : https://t.me/Aqua_Snake/ \n Website : https://aqua-snake.github.io/Aqua-Snake/ `});
 
 	}));
 	Asena.addCommand({pattern: 'infoca ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {

@@ -21,15 +21,15 @@ if (Config.WORKTYPE == 'private') {
 
 	}));
 
-	Asena.addCommand({pattern: 'devinfo', fromMe: true, desc: 'Developer Infomation'}, (async (message, match) => {
+	Asena.addCommand({pattern: 'infodev', fromMe: true, desc: 'Developer Infomation'}, (async (message, match) => {
 
 		await 	message.sendMessage(fs.readFileSync('media/aqualogo.jpg'), MessageType.image, {caption: `_____ *Bot Developer* _____\n\n Creator : Aqua Snake \n Github : https://github.com/Aqua-Snake/ \n Whatsapp : wa.me/+94764746599 \n Telegram : https://t.me/Aqua_Snake/ \n Website : https://aqua-snake.github.io/Aqua-Snake/ `});
 
 	}));
-	Asena.addCommand({pattern: 'cainfo', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+	Asena.addCommand({pattern: 'infoca ', fromMe: true, desc: 'Cyber Army Infomation'}, (async (message, match) => {
 
-  await message.client.sendMessage(message.jid, 'Cyber Army ', MessageType.text);
-  }));
+  await message.sendMessage(fs.readFileSync('media/armylogo.jpg'), MessageType.image, {caption: `_____ *Bot Developer* _____\n\n Creator : Aqua Snake \n Github : https://github.com/Aqua-Snake/ \n Whatsapp : wa.me/+94764746599 \n Telegram : https://t.me/Aqua_Snake/ \n Website : https://aqua-snake.github.io/Aqua-Snake/ `});
+ }));
 
 }
 
@@ -46,8 +46,8 @@ else if (Config.WORKTYPE == 'public') {
 		await 	message.sendMessage(fs.readFileSync('media/aqualogo.jpg'), MessageType.image, {caption: `_____ *Bot Developer* _____\n\n Creator : Aqua Snake \n Github : https://github.com/Aqua-Snake/ \n Whatsapp : wa.me/+94764746599 \n Telegram : https://t.me/Aqua_Snake/ \n Website : https://aqua-snake.github.io/Aqua-Snake/ `});
 
 	}));
-	Asena.addCommand({pattern: 'cainfo', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+	Asena.addCommand({pattern: 'cainfo ', fromMe: true, desc: 'Cyber Army Infomation'}, (async (message, match) => {
 
-  await message.client.sendMessage(message.jid, 'Cyber Army', MessageType.text);
-  }));
+  await message.sendMessage(fs.readFileSync('media/armylogo.jpg'), MessageType.image, {caption: `_____ *Cyber Army* _____\n\n Creator : Exynos  \n Github : https://github.com/Aqua-Snake/ \n Whatsapp : wa.me/+94764746599 \n Telegram : https://t.me/Aqua_Snake/ \n Website : https://aqua-snake.github.io/Aqua-Snake/ `});
+ }));
 }
